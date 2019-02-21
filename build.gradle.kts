@@ -14,10 +14,12 @@ repositories {
 
 dependencies {
 
+  // Lombok
+  annotationProcessor("org.projectlombok:lombok:1.18.6")
+  implementation("org.projectlombok:lombok:1.18.6")
+
   // Spring Boot starters
   implementation("org.springframework.boot:spring-boot-starter-web:2.1.3.RELEASE")
-  implementation("org.projectlombok:lombok:1.18.6")
-  annotationProcessor("org.projectlombok:lombok:1.18.6")
 
   // Spring Boot test starters
   testImplementation("org.springframework.boot:spring-boot-starter-test:2.1.3.RELEASE")

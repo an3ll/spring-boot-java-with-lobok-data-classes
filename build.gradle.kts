@@ -28,7 +28,7 @@ dependencies {
 
 application {
   // Define the main class for the application.
-  mainClassName = "se.inera.intyg.intygsbestallning.IntygsbestallningApplication"
+  mainClassName = "se.inera.intyg.intygsbestallning.SpringBootWithLombokApplication"
 }
 
 tasks {
